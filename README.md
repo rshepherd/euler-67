@@ -1,7 +1,10 @@
-Euler67
-=======
+Description
+===========
 
-A solution in C++ to the problem 67 of Project Euler found at http://projecteuler.net/index.php?section=problems&id=67
+A solution in C++ to problem 67 of Project Euler found at http://projecteuler.net/index.php?section=problems&id=67
+
+Problem Statement
+=================
 
 By starting at the top of the triangle below and moving to adjacent numbers on the row below, 
 the maximum total from top to bottom is 23.
@@ -18,7 +21,8 @@ Find the maximum total from top to bottom in triangle.txt, a 15K text file conta
 It is not possible to try every route to solve this problem, as there are 299 altogether! 
 If you could check one trillion (1012) routes every second it would take over twenty billion years to check them all. 
 
-This solution is a more efficient solution.
+Solution
+========
 
 This algorithm begins with the base of the triangle and 'rolls up' the rows into the one above by comparing 
 each row's elements to its immediate neighbor choosing the one with the higher value and adding that to the 
